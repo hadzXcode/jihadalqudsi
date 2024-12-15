@@ -1,0 +1,40 @@
+::-webkit-scrollbar-track{
+    background: #15151c;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+ ::-webkit-scrollbar-thumb{
+    background: #b6e22a;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px gray;
+ }
+
+#about >#judul-about::after{
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 5px;
+    background-color: #b6e22a;
+    transform: translate(10px,40px);
+}
+
+#halaman3 >h1::after{
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 5px;
+    background-color: #b6e22a;
+    transform: translate(-95px,50px);
+}
+
+#halaman4 >h1::after{
+    content: '';
+    position: absolute;
+    width: 160px;
+    height: 5px;
+    background-color: #b6e22a;
+    transform: translate(-165px,60px);
+}

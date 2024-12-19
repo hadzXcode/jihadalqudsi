@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./output.css">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!-- animasi AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/1b64c6c172.js" crossorigin="anonymous"></script>
+
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- halaman 1 -->
+    <section id="halaman1" class="w-full h-max bg-[#252532] text-white font-poppins flex flex-col-reverse justify-center items-center pt-[100px] overflow-hidden lg:h-screen lg:flex-row">
+
+        <!-- div judul -->
+        <div id="judul" class="w-full h-[50%] p-10 flex flex-col justify-center text-center lg:text-start" data-aos="fade-right" data-aos-duration="1500">
+            <h2 class="text-lg my-2 md:text-2xl">Hello, I'm</h2>
+            <h1 class="text-3xl text-[#b6e22a] font-semibold md:text-4xl lg:text-5xl">Jihad Al Qudsi</h1>
+            <h2 class="text-lg my-2 md:text-2xl">Frontend Developer | UI / UX Designer | Network Engineer</h2>
+
+            <p class="font-thin text-start md:text-base md:text-center lg:text-start">Website portofolio ini saya buat sebagai wadah untuk nge-showcase karya, pengalaman, dan skill saya di dunia teknologi. Tujuannya simpel yaitu buat ngeinspirasi, connect dengan orang-orang keren, dan ngasih gambaran nyata tentang apa yang bisa saya bawa ke dunia kerja. Let’s build something amazing together!</p>
+
+            <div class="w-full flex justify-center items-center flex-col mb-[100px] lg:items-start">
+                <a href="#halaman2" class="w-[150px] h-[50px] bg-[#b6e22a] flex justify-center items-center text-slate-800  font-bold my-5 rounded-md text-xl  hover:scale-[1.050] duration-300">About Me </a>
+
+                <div class="w-[200px] h-[50px] flex justify-center items-center lg:justify-start">
+                    <a href="https://www.instagram.com/_hadzxcode"><i class="fa-brands fa-instagram mx-2 fa-xl hover:scale-[1.2] duration-300"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube mx-2 fa-xl hover:scale-[1.2] duration-300"></i></a>
+                    <a href="#"><i class="fa-brands fa-github mx-2 fa-xl hover:scale-[1.2] duration-300"></i></a>
+                    <a href="#"><i class="fa-brands fa-tiktok mx-2 fa-xl hover:scale-[1.2] duration-300"></i></a>
+                </div>
+            </div>
+
+            
+        </div>
+
+        <!-- div photo -->
+        <div id="photo" class="w-full h-[50%] flex justify-center items-center lg:h-full" data-aos="fade-left" data-aos-duration="1500">
+            <img src="./img/hadz.png" alt="" class="w-[250px] md:w-[350px] lg:w-[450px]">
+        </div>
+    </section>
+
+
+    <!-- halaman 2 -->
+    <section id="halaman2" class="w-full h-max bg-[#323444] text-white font-poppins pt-[100px] overflow-hidden flex justify-center items-center ">
+
+        <div class="flex justify-center items-center flex-col bg-white bg-opacity-10 w-[90%] pt-5 mb-[50px] lg:bg-transparent lg:flex-row ">
+                <!-- photo -->
+            <div id="photo" class="w-[100%]  flex justify-center" data-aos="fade-up-right" data-aos-duration="1500">
+                <img src="./img/hadz.png" class="w-[250px] md:w-[350px] lg:w-[450px]">
+            </div>
+
+            <!-- text about -->
+            <div id="about" class="w-[100%] h-[50%] p-10  my-5 flex flex-col justify-center lg:bg-white lg:bg-opacity-10" data-aos="fade-up-left" data-aos-duration="1500">
+                <h1 id="judul-about" class="text-3xl text-[#b6e22a] font-semibold  mb-2">About Me</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam minus corporis laudantium laboriosam atque rerum molestiae eaque recusandae, cumque repellendus quos quaerat, modi temporibus consequatur iste illo obcaecati repudiandae! Soluta dignissimos autem est aperiam! Debitis et inventore maiores odio incidunt quae aspernatur hic qui ea quod, nostrum doloremque? Dicta, modi?</p>
+
+                <a href="#about" class="w-[150px] h-[50px] bg-[#b6e22a] my-2 flex justify-center items-center text-slate-800  font-bold rounded-md hover:scale-[1.050] duration-300 md:my-5 md:text-xl md:w-[190px]">My Certificate <i class="fa-solid fa-arrow-right fa-md ml-2"></i></a>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <!-- halaman 3 -->
+     <section id="halaman3" class="w-full h-max bg-[#252532] text-white font-poppins p-10 pt-[100px] overflow-hidden">
+        <h1 class="text-5xl text-[#b6e22a] font-semibold mb-10 text-center ">Skill</h1>
+        <div class="flex justify-center items-center mb-[50px]">
+
+            <div class="w-[800px]  flex justify-center flex-wrap">
+                <div data-aos="zoom-in-up" data-aos-duration="1200">
+                    <div class="skill" >
+                        <img src="./img/html.png" class="w-[25px] mr-2">
+                        <p>html</p>
+                    </div>
+                </div>
+                <div data-aos="zoom-in-up" data-aos-duration="1200">
+                    <div class="skill" >
+                        <img src="./img/css.png" class="w-[25px] mr-2">
+                        <p>css</p>
+                    </div>
+                </div>
+                <div data-aos="zoom-in-up" data-aos-duration="1200">
+                    <div class="skill" >
+                        <img src="./img/php.png" class="w-[30px] mr-2">
+                        <p>php</p>
+                    </div>
+                </div>
+                <div data-aos="zoom-in-up" data-aos-duration="1200">
+                    <div class="skill" >
+                        <img src="./img/mysql.png" class="w-[25px] rounded-md mr-2">
+                        <p>MySQL</p>
+                    </div>
+                </div>
+                <div data-aos="zoom-in-up" data-aos-duration="1200">
+                    <div class="skill" >
+                        <img src="./img/tailwind.png" class="w-[25px] mr-2">
+                        <p>tailwind</p>
+                    </div>
+                </div>
+                <div data-aos="zoom-in-up" data-aos-duration="1200">
+                    <div class="skill" >
+                        <img src="./img/wordpress.png" class="w-[25px] mr-2">
+                        <p>wordpress</p>
+                    </div>
+                </div>
+                <div data-aos="zoom-in-up" data-aos-duration="1200">
+                    <div class="skill" >
+                        <img src="./img/mikrotik.png" class="w-[50px] rounded-full mr-2">
+                        <p>mikrotik</p>
+                    </div>
+                </div>
+                <div data-aos="zoom-in-up" data-aos-duration="1200">
+                    <div class="skill" >
+                        <img src="./img/figma.png" class="w-[25px] mr-2">
+                        <p>figma</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+
+     <!-- halaman4 -->
+     <section id="halaman4" class="w-full h-max bg-[#323444] text-white font-poppins p-10 pt-[100px] overflow-hidden">
+        <h1 class="text-5xl text-[#b6e22a] font-semibold mb-10 text-center ">Project</h1>
+
+        <!-- container projek -->
+        <div id="container-projek" class="w-full h-full flex justify-center flex-wrap mt-[100px] text-white">
+            <div data-aos="zoom-in" data-aos-duration="1200" class="m-4">
+                <div id="card" class="card">
+                    <img src="./img/web-wordpress.png" alt="" width="100%" >
+                    <p class="w-full h-[50px] bg-black flex justify-center items-center ">PROJECT I ( wordpress ) </p>
+                    <div id="caption">
+                        <p class="my-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, asperiores?</p>
+                        <a href="#" class="w-[100px] h-[30px] bg-[#b6e22a] flex justify-center items-center text-slate-800  font-bold my-5 rounded-md">more</a>
+                    </div>
+                </div>
+            </div>
+            <div data-aos="zoom-in" data-aos-duration="1200" class="m-4">
+                <div id="card" class="card">
+                    <img src="./img/data-sekolah.png" alt="" width="100%" >
+                    <p class="w-full h-[50px] bg-black flex justify-center items-center ">PROJECT II ( crud-php ) </p>
+                    <div id="caption">
+                        <p class="my-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, asperiores?</p>
+                        <a href="#" class="w-[100px] h-[30px] bg-[#b6e22a] flex justify-center items-center text-slate-800  font-bold my-5 rounded-md">more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+    </section>
+
+
+    <footer class="w-full h-max bg-[#15151d] overflow-hidden font-poppins">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#323444" fill-opacity="1" d="M0,160L30,176C60,192,120,224,180,208C240,192,300,128,360,85.3C420,43,480,21,540,53.3C600,85,660,171,720,192C780,213,840,171,900,138.7C960,107,1020,85,1080,112C1140,139,1200,213,1260,218.7C1320,224,1380,160,1410,128L1440,96L1440,0L1410,0C1380,0,1320,0,1260,0C1200,0,1140,0,1080,0C1020,0,960,0,900,0C840,0,780,0,720,0C660,0,600,0,540,0C480,0,420,0,360,0C300,0,240,0,180,0C120,0,60,0,30,0L0,0Z" ></path></svg>
+
+        <div class="w-full h-max pt-20  relative bottom-20  flex justify-center flex-col md:flex-row text-white ">
+            <div id="contributor" class="mx-5 flex justify-center items-start flex-col">
+                <h1>Social media Team Development :</h1>
+                <div class=" flex justify-start items-center flex-wrap my-2 text-white font-semibold">
+                    <!-- <h4 class="mr-4 text-2xl">Jihad Al Qudsi</h4> -->
+                    <p class="mr-4"><i class="fa-brands fa-linkedin"></i>jihad al qudsi</p>
+                    <p class="mr-4"><i class="fa-brands fa-github"></i>hadzxcode</p>
+                    <p class="mr-4"><i class="fa-brands fa-instagram"></i>_hadzxcode</p>
+                    <p class="mr-4"><i class="fa-brands fa-tiktok"></i>@hadzxcode</p>
+                    <p class="mr-4"><i class="fa-brands fa-youtube"></i>@hadzxcode</p>
+                </div>
+                <div class="flex justify-start items-center flex-wrap my-2 text-white font-semibold ">
+                    <!-- <h4 class="mr-4 text-2xl">Diding Hidayat</h4> -->
+                    <p class="mr-4"><i class="fa-brands fa-linkedin"></i>diding hidayat</p>
+                    <p class="mr-4"><i class="fa-brands fa-github"></i>dayat3332</p>
+                    <p class="mr-4"><i class="fa-brands fa-instagram"></i>daya_t341</p>
+                    <p class="mr-4"><i class="fa-brands fa-tiktok"></i>dayat_4379</p>
+                </div>
+            </div>
+            <div class=" text-white text-2xl mx-5 border-l-4 border-white pl-5">
+                <h1 class="my-5 font-semibold">Thanks For scrolling, That's all folks</h1>
+            </div>
+        </div>
+        <p class="text-white text-center mb-[50px]">&copy;Copyright2024</p>
+    </footer>
+
+    
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+    AOS.init();
+    </script>
+</body>
+</html>
